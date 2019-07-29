@@ -5,6 +5,7 @@
 ## 开始使用
 * [安装](start-using/install.md)
 * [快速入门](start-using/quick-get-start.md)
+* [完整配置](start-using/config.md)
 
 ## 支付
 
