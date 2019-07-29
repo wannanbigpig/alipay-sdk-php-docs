@@ -1,10 +1,13 @@
-## 开始使用 <a id="start-using"></a>
+# Table of contents
 
-* [简述](start-using/jian-shu.md)
-* [安装](start-using/an-zhuang.md)
+* [简介](README.md)
+
+## 开始使用
+* [安装](start-using/install.md)
+* [快速入门](start-using/quick-get-start.md)
 
 ## 支付
 
-* [入门](zhi-fu/ru-men.md)
-* [统一收单](zhi-fu/tong-yi-shou-dan.md)
+* [入门](alipay/ru-men.md)
+* [统一收单](alipay/tong-yi-shou-dan.md)
 
