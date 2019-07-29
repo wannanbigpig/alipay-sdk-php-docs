@@ -1,7 +1,3 @@
-# Table of contents
-
-* [简介](README.md)
-
 ## 开始使用 <a id="start-using"></a>
 
 * [简述](start-using/jian-shu.md)
