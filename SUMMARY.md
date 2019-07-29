@@ -10,5 +10,5 @@
 ## 支付
 
 * [入门](payment/index.md)
-* [统一收单](payment/base.md)
+* [统一收单交易](payment/base.md)
 
