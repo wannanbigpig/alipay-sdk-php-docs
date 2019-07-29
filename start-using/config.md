@@ -35,15 +35,15 @@ $config = [
   	// 'private_key' => '私钥字符串', // 和 private_key_path 二选一
     'alipay_public_Key_path' => STORAGE_ROOT.'alipay_public_key.pem',
   	// 'alipay_public_Key' => '支付宝公钥字符串', // 和 alipay_public_Key_path 二选一
-    'handle_response' => true, // 处理支付宝的返回值，不填默认true
+    'handle_response' => true, // 处理支付宝的返回值，默认true
     /**
-     * 指定 API 调用返回结果的类型：array/collection/object/raw，不填默认array
+     * 指定 API 调用返回结果的类型：array/collection/object/raw，默认array
      */
     'response_type' => 'array',
     /**
-     * 网关配置：dev，normal两种模式，dev则使用沙箱网关，normal正常网关，不填默认normal
+     * 是否启用沙箱模式（bool值），默认false
      */
-    'env' => 'normal',
+    'sandbox' => false,
   	/**
   	 * 以下是log默认的配置
   	 */
@@ -63,7 +63,7 @@ $config = [
     'http' => [
         'timeout' => 6.0,
         'connect_timeout' => 6.0,
-        // 'base_uri' => 'https://openapi.alipay.com/gateway.do', // 默认根据env配置项选择正式网关或者沙箱网关
+        // 'base_uri' => 'https://openapi.alipay.com/gateway.do', // 默认根据sandbox配置项选择正式网关或者沙箱网关
         'log_template' => "\n>>>>>>>>request\n--------\n{request}\n--------\n>>>>>>>>response\n--------\n{response}\n--------\n>>>>>>>>error\n--------\n{error}\n--------\n",
     ],
 ];

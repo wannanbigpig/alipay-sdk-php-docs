@@ -9,6 +9,6 @@
 
 ## 支付
 
-* [入门](alipay/ru-men.md)
-* [统一收单](alipay/tong-yi-shou-dan.md)
+* [入门](payment/index.md)
+* [统一收单](payment/base.md)
 
