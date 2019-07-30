@@ -1,8 +1,6 @@
 # Table of contents
 
 * [简介](README.md)
-<<<<<<< HEAD
-=======
 
 ## 开始使用
 * [安装](start-using/install.md)
@@ -17,5 +15,4 @@
 * [退款](payment/refund.md)
 * [通知](payment/notify.md)
 * [其他操作](payment/other.md)
->>>>>>> master
 
