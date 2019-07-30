@@ -10,5 +10,9 @@
 ## 支付
 
 * [入门](payment/index.md)
-* [统一收单交易](payment/base.md)
+* [支付](payment/base.md)
+
+* [退款](payment/refund.md)
+* [通知](payment/notify.md)
+* [其他操作](payment/other.md)
 

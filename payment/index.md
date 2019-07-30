@@ -49,7 +49,7 @@ $result = $app->pay([
 
 ### 注意
 
-接口中的notify_url和return_url默认读取传入配置参数，如需对个别接口修改可以如下操作：
+1、接口中的notify_url和return_url默认读取传入配置参数，如需对个别接口修改可以如下操作：
 
 ```php
 $app->setNotifyUrl($notifyUrl);
@@ -63,4 +63,8 @@ $app->setNotifyUrl($notifyUrl)->pay([
 ```
 
 需要修改return_url的同上操作，使用方法 ```setReturnUrl(string $returnUrl)```
+
+2、后续文档中有些默认值列出来的可不传，具体根据不同方法调用说明操作
+
+
 
