@@ -38,6 +38,10 @@ $result = $app->close(string $tradeNo, string $outTradeNo = null, string $operat
 
 ### 4、交易结算
 
+**业务请求参数说明：**
+
+$royaltyParameters 传入的是一维数组SDK会自动转换成二维数组
+
 **官方文档：**
 
 [alipay.trade.order.settle(统一收单交易结算接口)](https://docs.open.alipay.com/api_1/alipay.trade.order.settle/)

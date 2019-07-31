@@ -4,3 +4,6 @@
 
 
 Alipay SDK for PHP 源码仓库地址：https://github.com/wannanbigpig/alipay-sdk-php
+
+参与贡献[点这](other/contribution.md)
+

@@ -59,6 +59,13 @@ $result = $app->create([
 
 ### 4、pc支付
 
+**默认业务请求参数：**
+
+```
+'timeout_express' => '1c',
+'product_code' => 'FAST_INSTANT_TRADE_PAY',
+```
+
 **官方文档：**
 
 [alipay.trade.page.pay(统一收单下单并支付页面接口)](https://docs.open.alipay.com/api_1/alipay.trade.page.pay/)
@@ -75,6 +82,13 @@ $result = $app->pay->pc([
 
 ### 5、wap支付
 
+**默认业务请求参数：**
+
+```
+'timeout_express' => '1c',
+'product_code' => 'QUICK_WAP_WAY',
+```
+
 **官方文档：**
 
 [alipay.trade.wap.pay(手机网站支付接口2.0)](https://docs.open.alipay.com/api_1/alipay.trade.wap.pay/)
@@ -90,6 +104,13 @@ $result = $app->pay->wap([
 ```
 
 ### 6、app支付
+
+**默认业务请求参数：**
+
+```
+'timeout_express' => '1c',
+'product_code' => 'QUICK_MSECURITY_PAY',
+```
 
 **官方文档：**
 
